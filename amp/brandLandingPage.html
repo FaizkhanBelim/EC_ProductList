@@ -1,0 +1,1428 @@
+<!doctype html>
+<html ⚡>
+
+<head>
+	<meta charset="utf-8">
+	<title>Brand Landing Page</title>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+	<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+	<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+	<script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+	<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+	<link rel="canonical" href="/amp/barndsale.html">
+	<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+	<link rel="amphtml" href="http://localhost:8000/to/amp/barndsale.html">
+	<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+	<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js">
+	</script>
+
+
+	<meta name="amp-experiment-token"
+		content="AAAAAFd7Im9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMCIsImV4cGVyaW1lbnQiOiJhbXAtc2NyaXB0IiwiZXhwaXJhdGlvbiI6MTg5NjEzNDQwMDAwMH08Wb1WA4ZcsTLNK1pxwXdmfYUlv4ybtfIMw3yS66dZhsJl11JYrTanag4ZlAr4sfBRTVmQfKLsiJq/JJHdrpRzT9M6EQD/JYos1SlohtQiK2YfhvXgN7zot3WBuFkqoxSiyvX/l23UYKSo2ebNTnMDFhI+yrX8uc9BblbYniRtQGXBPktjJUIgavEBS5t45bgbPNutNvAreYGlz7na4lImrpnNa8K28Ow4hqOxcqqdFoHD9hlwtKlpydJQpEmtM+S+jdDLKWq6JtC+HoUSovuitrqkioJ4cfuVkFqtoaKWPLXSOwoc5UJl3zNjlTjvQ/Gnk33NdWs6/FtZbxCq+lWe">
+
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<style amp-boilerplate>
+		body {
+			-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			animation: -amp-start 8s steps(1, end) 0s 1 normal both
+		}
+
+		@-webkit-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-moz-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-ms-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-o-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+	</style>
+	<noscript>
+		<style amp-boilerplate>
+			body {
+				-webkit-animation: none;
+				-moz-animation: none;
+				-ms-animation: none;
+				animation: none
+			}
+		</style>
+	</noscript>
+	<style amp-custom>
+		body {
+			font-family: 'Noto Sans JP', sans-serif;
+		}
+
+		h1 {
+			font-family: 'Noto Sans JP', sans-serif;
+			margin-bottom: 0;
+		}
+
+		p {
+			/* font-size: 10px; */
+			height: 35px;
+			overflow: hidden;
+			margin-bottom: 0;
+		}
+
+		.column {
+			border: 5px solid white;
+			float: left;
+			width: 19%;
+			position: relative;
+		}
+
+		.site-name {
+			flex: 1;
+			margin-left: -36px;
+		}
+
+		header {
+			background-color: #241754;
+			color: white;
+			font-size: 24px;
+			text-align: center;
+		}
+
+		.headerbar {
+			height: 50px;
+			z-index: 999;
+			top: 0;
+			width: 100%;
+			display: flex;
+			align-items: center;
+		}
+
+		.name {
+			color: white;
+			text-decoration: none;
+		}
+
+		.new-product {
+			background-color: #ba002f;
+			height: 18px;
+			line-height: 18px;
+			color: #fff;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 11px;
+			font-weight: 400;
+			text-transform: uppercase;
+			padding: 0 6px;
+			display: inline-block;
+			position: absolute;
+			top: 3px;
+			left: 3px;
+		}
+
+		.priceTitle {
+			margin-left: 97px;
+			margin-top: -17px;
+			white-space: pre;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 14px;
+			font-weight: 900;
+		}
+
+		.pricesymbol {
+			margin-left: 87px;
+			margin-top: -17px;
+			white-space: pre;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 14px;
+			font-weight: 900;
+			margin-right: 3px;
+		}
+
+		.pricetax {
+			margin-left: 140px;
+			margin-top: -20px;
+			white-space: pre;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 14px;
+			font-weight: 900;
+		}
+
+		.brandType {
+			font-size: 13px;
+			border: 1px solid #bbb;
+			display: inline-block;
+			padding: 0 3px;
+			line-height: 15px;
+			margin-left: 97px;
+			text-align: center;
+		}
+
+		.brandSize {
+			margin: 0 0 0 2px;
+			font-size: 13px;
+			display: inline-block;
+			padding: 0 3px;
+		}
+
+		.brandname {
+			margin-top: 10px;
+			max-width: 65px;
+			max-height: 21px;
+		}
+
+		/* .hide {
+			display: none;
+		} */
+
+		.product-description-box .logo-price-box {
+			display: flex;
+			align-items: flex-end;
+		}
+
+		.product-description-box .product-desc p {
+			font-size: 14px;
+		}
+
+		.w-50 {
+			width: 50%;
+		}
+
+		.text-price {
+			font-size: 14px;
+			text-align: right;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-weight: 900;
+		}
+
+		.text-price span {
+			font-size: 12px;
+		}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.product-info {
+			padding-left: 0;
+			list-style: none;
+		}
+
+		.product-type {
+			padding: 5px;
+			display: inline-block;
+			font-size: 13px;
+			border: 1px solid #bbb;
+			line-height: 15px;
+		}
+
+		.product-info li {
+			padding: 5px;
+			display: inline-block;
+			font-size: 13px;
+			line-height: 15px;
+		}
+
+		.product-size {
+			color: gray;
+		}
+
+		/*NAVIGATION SIDE BAR */
+		.hamburger {
+			padding-left: 10px;
+			position: relative;
+		}
+
+		.sidebar {
+			padding: 10px;
+			margin: 0;
+		}
+
+		.sidebar>li {
+			list-style: none;
+			margin-bottom: 10px;
+		}
+
+		.sidebar a {
+			text-decoration: none;
+		}
+
+		.close-sidebar {
+			font-size: 1.5em;
+			padding-left: 5px;
+		}
+
+		.site-name {
+			flex: 1;
+			margin-left: -36px;
+		}
+
+		header {
+			background-color: #241754;
+			color: white;
+			font-size: 24px;
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0;
+			padding: 0.5em;
+			background: white;
+			box-shadow: 0px 3px 5px grey;
+		}
+
+		.headerbar {
+			height: 50px;
+			z-index: 999;
+			top: 0;
+			width: 100%;
+			display: flex;
+			align-items: center;
+		}
+
+		.tab {
+			display: flex;
+			margin-top: 0px;
+			margin-left: -25px;
+		}
+
+		.tabmenu {
+			padding: 11px;
+			list-style-type: none;
+		}
+
+		.priceTitle {
+			margin-left: 160px;
+			margin-top: -18px;
+		}
+
+		.titleItem {
+			font-size: 12px;
+			line-height: 1;
+		}
+
+		.name {
+			color: white;
+			text-decoration: none;
+		}
+
+		.bannerbrand {
+			max-width: 100%;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+
+		.imgbanner {
+			height: auto;
+			max-width: 75%;
+			margin-left: 160px;
+		}
+
+		.search {
+			border-radius: 3px;
+			border: 1px solid #e6e6e6;
+			height: 36px;
+			font-size: 12px;
+			width: 75%;
+			margin-left: 16px;
+			margin-top: 15px;
+		}
+
+		.searchbar {
+			border-radius: 3px;
+			border: 1px solid #e6e6e6;
+			height: 36px;
+			font-size: 12px;
+			width: 15%;
+		}
+
+		.tablist {
+			padding: 0;
+			list-style: none;
+			margin: 0;
+			height: 50px;
+		}
+
+		.tablistmenu {
+			display: inline-block;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-width: 87px;
+			text-align: center;
+			text-transform: uppercase;
+			float: left;
+		}
+
+		.direct-select {
+			font-family: Lato, sans-serif;
+			font-size: 13px;
+			font-weight: 400;
+			display: block;
+			color: #333;
+			text-decoration: none;
+		}
+
+		.sr-only {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+
+		/* .brand-banner .fav-icon span {
+			width: 60px;
+			height: 60px;
+		} */
+
+		.brand-banner .fav-icon span {
+			margin: 5px auto;
+			position: relative;
+			margin-right: 1rem;
+			background-color: #fff;
+			width: 70px;
+			height: 70px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			box-shadow: 0 2px 4px 0 #ccc;
+			margin-top: -55px;
+		}
+
+		.brand-img-fluid {
+			/* max-width: 100%;
+				height: auto; */
+			width: 35px;
+			height: 30px;
+			margin-top: 5px;
+			margin-left: 0px;
+		}
+
+		.favimg {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.brand-banner .fav-icon p {
+			font-size: 13px;
+			color: #333;
+			margin-top: 10px;
+			margin-left: 75%;
+		}
+
+		.text-center {
+			text-align: center;
+		}
+
+		.mb-0 .my-0 {
+			margin-bottom: 15px;
+		}
+
+		.branddesclogo {
+			max-width: 120px;
+			margin-left: 45%;
+		}
+
+		.brand-descrip {
+			margin: 60px 0 24px;
+		}
+
+		.brand-descrip h1 {
+			font-size: 20px;
+			color: #241754;
+			margin-bottom: 13px;
+		}
+
+		.brand-info {
+			margin-top: 13px;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 15px;
+			line-height: 1.6;
+			color: black;
+		}
+
+		.brand-descrip .brand-more-btn button {
+			font-size: 12px;
+			width: 134px;
+			padding: 13px 0;
+		}
+
+		.common-btn {
+			background-color: #241754;
+			color: #fff;
+			cursor: pointer;
+			border: 0;
+		}
+
+		.brand-descrip p {
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-bottom: 1rem;
+			height: 150px;
+			margin-top: 13px;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 15px;
+			line-height: 1.6;
+		}
+
+		.brandnamelogo {
+			font-size: 24px;
+			color: #241754;
+			margin-bottom: 13px;
+		}
+
+		.title-content {
+			font-family: Lato, sans-serif;
+			margin-bottom: 16px;
+			line-height: 1;
+		}
+
+		.sm-title {
+			font-size: 15px;
+			color: #bbb;
+			text-transform: capitalize;
+			font-weight: 700;
+			margin-bottom: 8px;
+			margin-top: 35px;
+			font-family: Lato, sans-serif;
+		}
+
+		.title {
+			font-size: 20px;
+			margin-top: -22px;
+			font-weight: 700;
+			color: #241754;
+		}
+
+		.imgcontent {
+			display: block;
+			clear: both;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 12px;
+			color: #333;
+			line-height: 1.83;
+			margin-top: 0px;
+			margin-left: 10px;
+		}
+
+		.more-list-link {
+			color: #ff9326;
+			font-size: 13px;
+			font-weight: 400;
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+			outline: 0;
+			box-shadow: none;
+		}
+
+		.morelinklist {
+			margin-top: 50px;
+		}
+
+		.popular-item .title-content .title .position-set {
+			right: 0;
+			bottom: -8px;
+		}
+
+		.position-absolute {
+			position: absolute;
+		}
+
+		.section-plr-12 {
+			padding: 0 12px;
+		}
+
+		.mt-4 {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			border: 0;
+			border-top: 1px solid rgba(0, 0, 0, .1);
+		}
+
+		/* MEDIA QUERY START */
+		@media only screen and (max-width:500px) {
+
+			/* For mobile phones: */
+			.menu,
+			.column,
+			.right {
+				width: 50%;
+			}
+
+			.column {
+				width: 46%;
+				padding: 2px;
+				outline: 0;
+				-webkit-box-shadow: none;
+				box-shadow: none;
+			}
+
+			.priceTitle {
+				margin-left: 97px;
+				margin-top: -17px;
+				white-space: pre;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 14px;
+				font-weight: 900;
+			}
+
+			.brandType {
+				font-size: 13px;
+				border: 1px solid #bbb;
+				display: inline-block;
+				padding: 0 3px;
+				line-height: 15px;
+				margin-left: 97px;
+				text-align: center;
+			}
+
+			.brandSize {
+				margin: 0 0 0 2px;
+				font-size: 13px;
+				display: inline-block;
+				padding: 0 3px;
+			}
+
+			.new-product {
+				background-color: #ba002f;
+				height: 18px;
+				line-height: 18px;
+				color: #fff;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 11px;
+				font-weight: 400;
+				text-transform: uppercase;
+				padding: 0 6px;
+				display: inline-block;
+				position: absolute;
+				top: 3px;
+				left: 3px;
+			}
+
+			.pricesymbol {
+				margin-left: 87px;
+				margin-top: -17px;
+				white-space: pre;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 14px;
+				font-weight: 900;
+				margin-right: 3px;
+			}
+
+			.pricetax {
+				margin-left: 140px;
+				margin-top: -20px;
+				white-space: pre;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 14px;
+				font-weight: 900;
+			}
+
+			.w-50 {
+				width: 50%;
+			}
+
+			.text-price {
+				font-size: 14px;
+				text-align: right;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 900;
+			}
+
+			.text-price span {
+				font-size: 12px;
+			}
+
+			.text-right {
+				text-align: right;
+			}
+
+			.product-info {
+				padding-left: 0;
+				list-style: none;
+			}
+
+			.product-type {
+				padding: 5px;
+				display: inline-block;
+				font-size: 13px;
+				border: 1px solid #bbb;
+				line-height: 15px;
+			}
+
+			.product-info li {
+				padding: 5px;
+				display: inline-block;
+				font-size: 13px;
+				line-height: 15px;
+			}
+
+			.product-size {
+				color: gray;
+			}
+
+			/*NAVIGATION SIDE BAR */
+			.hamburger {
+				padding-left: 10px;
+				position: relative;
+			}
+
+			.sidebar {
+				padding: 10px;
+				margin: 0;
+			}
+
+			.sidebar>li {
+				list-style: none;
+				margin-bottom: 10px;
+			}
+
+			.sidebar a {
+				text-decoration: none;
+			}
+
+			.close-sidebar {
+				font-size: 1.5em;
+				padding-left: 5px;
+			}
+
+			.site-name {
+				flex: 1;
+				margin-left: -36px;
+			}
+
+			header {
+				background-color: #241754;
+				color: white;
+				font-size: 24px;
+				text-align: center;
+			}
+
+			h1 {
+				margin: 0;
+				padding: 0.5em;
+				background: white;
+				box-shadow: 0px 3px 5px grey;
+			}
+
+			.headerbar {
+				height: 50px;
+				z-index: 999;
+				top: 0;
+				width: 100%;
+				display: flex;
+				align-items: center;
+			}
+
+			.tab {
+				display: flex;
+				margin-top: 0px;
+				margin-left: -25px;
+			}
+
+			.tabmenu {
+				padding: 11px;
+				list-style-type: none;
+			}
+
+			.column {
+				float: left;
+				width: 44%;
+				padding: 5px;
+				margin-top: 15px;
+			}
+
+			.priceTitle {
+				margin-left: 160px;
+				margin-top: -18px;
+			}
+
+			.titleItem {
+				font-size: 12px;
+				line-height: 1;
+			}
+
+			.name {
+				color: white;
+				text-decoration: none;
+			}
+
+			.bannerbrand {
+				min-width: 100%;
+				height: auto;
+				padding-left: 0;
+			}
+
+			.imgbanner {
+				height: auto;
+				margin-left: 0;
+			}
+
+			.img-fluid {
+				max-width: 100%;
+				height: auto;
+			}
+
+			.search {
+				border-radius: 3px;
+				border: 1px solid #e6e6e6;
+				height: 36px;
+				font-size: 12px;
+				width: 75%;
+				margin-left: 16px;
+				margin-top: 15px;
+			}
+
+			.searchbar {
+				border-radius: 3px;
+				border: 1px solid #e6e6e6;
+				height: 36px;
+				font-size: 12px;
+				width: 15%;
+			}
+
+			.direct-select {
+				font-family: Lato, sans-serif;
+				font-size: 13px;
+				font-weight: 400;
+				display: block;
+				color: #333;
+				text-decoration: none;
+			}
+
+			.tablist {
+				padding: 0;
+				list-style: none;
+				margin: 0;
+				height: 50px;
+			}
+
+			.tablistmenu {
+				display: inline-block;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-width: 87px;
+				text-align: center;
+				text-transform: uppercase;
+				float: left;
+			}
+
+			.sr-only {
+				position: absolute;
+				width: 1px;
+				height: 1px;
+				padding: 0;
+				overflow: hidden;
+				clip: rect(0, 0, 0, 0);
+				white-space: nowrap;
+				border: 0;
+			}
+
+			.brand-banner .fav-icon span {
+				width: 60px;
+				height: 60px;
+			}
+
+			.brand-banner .fav-icon span {
+				margin: 5px auto;
+				position: relative;
+				margin-right: 1rem;
+				background-color: #fff;
+				width: 70px;
+				height: 70px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 50%;
+				box-shadow: 0 2px 4px 0 #ccc;
+				margin-top: -55px;
+			}
+
+			.brand-img-fluid {
+				/* max-width: 100%;
+				height: auto; */
+				width: 35px;
+				height: 30px;
+				margin-top: 5px;
+				margin-left: 0px;
+			}
+
+			.favimg {
+				max-width: 100%;
+				height: auto;
+			}
+
+			.brand-banner .fav-icon p {
+				font-size: 13px;
+				color: #333;
+				margin-top: 10px;
+				margin-left: 75%;
+			}
+
+			.text-center {
+				text-align: center;
+			}
+
+			.mb-0 {
+				margin-bottom: 0;
+				font-size: 14px;
+			}
+
+			.branddesclogo {
+				max-width: 120px;
+				margin-left: 120px;
+				margin-top: -75px;
+			}
+
+			.brand-descrip {
+				margin: 60px 0 24px;
+			}
+
+			.brand-descrip h1 {
+				font-size: 20px;
+				color: #241754;
+				margin-bottom: 13px;
+			}
+
+			.brand-info {
+				margin-top: 13px;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 15px;
+				line-height: 1.6;
+				color: black;
+			}
+
+			.brand-descrip .brand-more-btn button {
+				font-size: 12px;
+				width: 134px;
+				padding: 13px 0;
+			}
+
+			.common-btn {
+				background-color: #241754;
+				color: #fff;
+				cursor: pointer;
+				border: 0;
+			}
+
+			.brand-descrip p {
+				font-size: 12px;
+				margin-bottom: 1rem;
+				height: 150px;
+			}
+
+			.brandnamelogo {
+				font-size: 24px;
+				color: #241754;
+				margin-bottom: 13px;
+			}
+
+			.title-content {
+				font-family: Lato, sans-serif;
+				margin-bottom: 16px;
+				line-height: 1;
+			}
+
+			.sm-title {
+				font-size: 15px;
+				color: #bbb;
+				text-transform: capitalize;
+				font-weight: 700;
+				margin-bottom: 8px;
+				margin-top: 35px;
+				font-family: Lato, sans-serif;
+			}
+
+			.title {
+				font-size: 20px;
+				margin-top: -22px;
+				font-weight: 700;
+				color: #241754;
+			}
+
+			.imgcontent {
+				display: block;
+				clear: both;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 12px;
+				color: #333;
+				line-height: 1.83;
+				margin-top: 0px;
+				margin-left: 10px;
+			}
+
+			.more-list-link {
+				color: #ff9326;
+				font-size: 13px;
+				font-weight: 400;
+				text-decoration: none;
+				border-bottom: 1px solid transparent;
+				outline: 0;
+				box-shadow: none;
+			}
+
+			.morelinklist {
+				margin-top: 50px;
+			}
+
+			.popular-item .title-content .title .position-set {
+				right: 0;
+				bottom: -8px;
+			}
+
+			.position-absolute {
+				position: absolute;
+			}
+
+			.section-plr-12 {
+				padding: 0 12px;
+			}
+
+			.footer {
+				background-color: #f3f3f3;
+				text-transform: uppercase;
+				padding: 45px 15px;
+				color: #241754;
+				margin-top: 50px;
+				display: inline-block;
+				padding-top: 0.3125rem;
+				padding-bottom: 0.3125rem;
+				margin-right: 0rem;
+				font-size: 1.25rem;
+				line-height: inherit;
+				white-space: nowrap;
+			}
+
+			.mb-3 .my-3 {
+				margin-bottom: 1rem;
+			}
+
+			.col-6 {
+				flex: 0 0 50%;
+				max-width: 50%;
+			}
+
+			.footer .col-md-3 .footer-list {
+				margin-bottom: 23px;
+				list-style: none;
+			}
+
+			.footer .footer-list li {
+				padding-bottom: 15px;
+			}
+
+			/* .footer .footer-list li a {
+				font-size: 12px;
+			} */
+
+			.footer .footer-list li a {
+				font-size: 12px;
+				color: #969696;
+				padding: 0;
+				text-decoration: none;
+				background-color: transparent;
+			}
+
+			.nav-link {
+				display: block;
+				padding: .5rem 1rem;
+			}
+
+			.float-left {
+				float: left;
+			}
+
+			.img-responsive {
+				width: 45%;
+				height: auto;
+				margin-left: 35px;
+				margin-top: 35px;
+			}
+
+			.footer .col-md-3 {
+				padding: 2px;
+			}
+
+			.footer .footer-list li:last-child {
+				padding-bottom: 0;
+			}
+
+		}
+
+		@media only screen and (max-width:800px) {
+			.priceTitle {
+				margin-left: 91px;
+				margin-top: -17px;
+				white-space: pre;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 14px;
+				font-weight: 900;
+			}
+
+			/* .column {
+				width: 46%;
+				padding: 2px;
+				outline: 0;
+				-webkit-box-shadow: none;
+				box-shadow: none;
+			} */
+
+			.brandType {
+				font-size: 13px;
+				border: 1px solid #bbb;
+				display: inline-block;
+				padding: 0 3px;
+				line-height: 15px;
+				margin-left: 97px;
+				text-align: center;
+			}
+
+			.brandSize {
+				margin: 0 0 0 2px;
+				font-size: 13px;
+				display: inline-block;
+				padding: 0 3px;
+			}
+
+			.pricesymbol {
+				margin-left: 81px;
+				margin-top: -17px;
+				white-space: pre;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 14px;
+				font-weight: 900;
+				margin-right: 3px;
+			}
+
+			.pricetax {
+				margin-left: 135px;
+				margin-top: -20px;
+				white-space: pre;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 14px;
+				font-weight: 900;
+			}
+
+			.brand-list:after {
+				clear: both;
+				content: "";
+				display: block;
+			}
+
+			.column {
+				width: 50%;
+				float: left;
+				padding: 0;
+				position: relative;
+				margin: 0;
+				border: 0;
+			}
+
+			.new-product-list {
+				padding: 10px;
+			}
+
+			.new-product {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				background-color: #ba002f;
+				text-transform: capitalize;
+				line-height: 18px;
+				font-weight: 400;
+				color: #fff;
+			}
+
+			.text-right {
+				text-align: right;
+			}
+
+		}
+	</style>
+</head>
+
+<body>
+	<header class="headerbar">
+		<div class="site-name" role="button" on="tap:sidebar1.toggle" tabindex="0">
+			<a href="ampJson.html" class="name">Brand Listing Page</a>
+		</div>
+	</header>
+	<form class="sample-form" method="GET" action="/documentation/examples/api/submit-form" target="_top">
+		<input type="search" placeholder="商品名などを入力してください" name="search" class="search">
+		<input type="submit" value="検索" class="searchbar">
+	</form>
+
+	<div class="maintab">
+		<ul class="tablist">
+			<li class="tablistmenu"> <a class="direct-select" href="/">すべて<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="tablistmenu"> <a class="direct-select" href="/men">MEN</a>
+			</li>
+			<li class="tablistmenu"> <a class="direct-select" href="/women">WOMEN</a>
+			</li>
+			<li class="tablistmenu"> <a class="direct-select" href="/kids">KIDS</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="row">
+		<div class="bannerbrand">
+			<amp-img src="https://cdn.right-on.co.jp/cms/brand_page/header_image/12/large/lee_1366.jpg?1535590926"
+				class="img-fluid imgbanner" width="175" height="70" layout="responsive">
+			</amp-img>
+		</div>
+
+	</div>
+	<div class="brand-banner">
+		<div class="row">
+			<div class="fav-icon mr-3 cursor-pointer">
+				<span>
+					<!-- <img alt="" class="img-fluid ng-star-inserted" src="/images/heart-fill-liked.png"> -->
+					<amp-img src="/images/heart-fill-liked.png" class="brand-img-fluid" width="200" height="250"
+						layout="responsive"></amp-img>
+				</span>
+				<p class="mb-0 text-center">お気に入り</p>
+			</div>
+			<!-- <p class="mb-0 text-center">お気に入り</p> -->
+		</div>
+	</div>
+
+	<div class="brand-descrip text-center">
+		<div class="row">
+
+			<div class="brand-logo">
+				<amp-img alt="" width="50" height="30" layout="responsive"
+					src="https://s3-ap-northeast-1.amazonaws.com/api.staging.righton.com/brands/0036.png"
+					class="branddesclogo">
+				</amp-img>
+			</div>
+			<span class="brandnamelogo">Lee(リー)<span>
+					<p class="brand-info">1889年、米国で誕生。
+						1911年より自社製造を開始、オーバーオールやジャケットといったワークウェアが高く評価されました。
+						1920年代よりデニムパンツ「101」をリリース。
+						その後もジェルトデニムやヒッコリー、ヘリンボーンといった新素材、
+						1926年には世界初のジッパーフライデニムも開発。
+						30年代以降は「101J」、「ストームライダー」といった名作を次々生み出しました。
+						70年代には本格的に日本に上陸。現在に至るまでファッションシーンにおいて欠かせない、
+						独自の存在感を放ち続けています。</p>
+					<div class="brand-more-btn">
+						<button class="btn common-btn ml-1 mr-1" type="button" tabindex="0">全てのアイテムを見る</button>
+						<button class="btn common-btn ml-1 mr-1" type="button" tabindex="0">もっと絞りこむ</button>
+					</div>
+		</div>
+	</div>
+	</div>
+	<div class="col p-0">
+		<hr class="mt-4 mb-4">
+	</div>
+	<div class="title-content text-center">
+		<p class="sm-title">Feature</p>
+		<p class="title position-relative">特集</p>
+	</div>
+
+	<amp-carousel layout="fixed-height" height="200" type="slides" delay="2000" loop>
+		<amp-img src="https://cdn.right-on.co.jp/cms/show_tokushu/ichiran_small_image/323/original/lee.jpg?1558578635"
+			width="355" height="200"></amp-img>
+		<amp-img
+			src="https://cdn.right-on.co.jp/cms/show_tokushu/ichiran_small_image/253/original/features.jpg?1545721066"
+			width="355" height="200"></amp-img>
+		<amp-img
+			src="https://cdn.right-on.co.jp/cms/show_tokushu/ichiran_small_image/250/original/ogp_lee.jpg?1553060285"
+			width="355" height="200"></amp-img>
+		<amp-img
+			src="https://cdn.right-on.co.jp/cms/show_tokushu/ichiran_small_image/238/original/lee_banner_1200_630.jpg?1553058739"
+			width="355" height="200"></amp-img>
+		<amp-img
+			src="https://cdn.right-on.co.jp/cms/free_tokushu/ichiran_header_image/75/original/features_%2820%29.jpg?1553058127"
+			width="355" height="200"></amp-img>
+		<amp-img
+			src="https://cdn.right-on.co.jp/cms/show_tokushu/ichiran_small_image/105/original/kidsLee_june.jpg?1559634473"
+			width="355" height="200"></amp-img>
+		<amp-img
+			src="https://cdn.right-on.co.jp/cms/show_tokushu/ichiran_small_image/29/original/Instagram%E3%81%A7%E5%A4%A7%E4%BA%BA%E6%B0%97%E3%81%AE%E3%82%8A%E3%82%93%E3%81%82%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%E3%81%A8%E3%82%B3%E3%83%A9%E3%83%9C%EF%BC%81.jpg?1553058659"
+			width="355" height="200"></amp-img>
+	</amp-carousel>
+	<p class="imgcontent">家族でお揃い！みんな仲良くLeeアイテムでリンクコーデ♪</p>
+
+	<div class="col section-plr-12">
+		<div class="title-content morelinklist text-center">
+			<p class="sm-title">NEW ITEM</p>
+			<p class="title position-relative">ニューアイテム
+				<!-- <span class="position-absolute position-set"><a class="more-list-link">一覧</a></span> -->
+			</p>
+		</div>
+	</div>
+
+	<amp-list layout="fixed-height" height="100" src="http://localhost:8000/brand_products.json"
+		[src]="emptyListSampleSrc || 'http://localhost:8000/brand_products.json'" single-item items="." reset-on-refresh
+		binding="no">
+		<template type="amp-mustache">
+			<div>
+				{{#hits.hits}}
+				{{#_source}}
+				{{#sku}}
+				{{#prices}}
+				{{/prices}}
+				{{/sku}}
+				{{#images}}
+				<div class="column">
+					<div class="new-product-list">
+						<a href="brandDetail.html">
+							<amp-img src="{{image_url}}" width="250" height="310" layout="responsive"></amp-img>
+						</a>
+						<span class="new-product">new</span>
+						<div class="product-description-box">
+							<div class="logo-price-box">
+								<div class="w-50">
+									<amp-img class="brandname" src="{{brand.image_url}}" width="10" height="3"
+										layout="responsive">
+									</amp-img>
+								</div>
+								<div class="w-50 text-price">
+									<amp-script layout="container" src="http://localhost:8000/app.js">
+										<span>¥</span>
+										<span id="number"> {{sku.0.prices.0.price_ex_vat}}</span>
+										<span>(税抜)</span>
+									</amp-script>
+								</div>
+							</div>
+							<div class="product-desc">
+								<p>{{item_name}}</p>
+							</div>
+							<div class="text-right">
+								<ul class="product-info">
+									<li class="product-type">Men</li>
+									<li class="product-size">S-XL</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{{/images}}
+			{{/_source}}
+			{{/hits.hits}}
+		</template>
+	</amp-list>
+	</div>
+
+	<div class="footer">
+		<div class="footer-logo">
+			<a class="navbar-brand mr-0 mr-md-2" href="/">
+				<amp-img class="img-responsive" alt="" src="https://cdn.right-on.co.jp/phase2-images/right-on-logo.png"
+					width="350" height="65" layout="responsive"></amp-img>
+			</a>
+		</div>
+		<div class="row">
+			<div class="col-6 col-md-3 mb-3 float-left">
+				<ul class="nav flex-column footer-list">
+					<li class="nav-item"> <a class="nav-link" href="/">Home </a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="/men">MENトップ</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="/women">WOMENトップ</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="/kids">KIDSトップ
+						</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link"
+							href="https://right-on.co.jp/sp-cms/userguide/index.html">ご利用ガイド</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-6 col-md-3 mb-3 float-left">
+				<ul class="nav flex-column footer-list">
+					<li class="nav-item"> <a class="nav-link" href="/brand">ブランド一覧</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="/sale">お買い得一覧</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="https://right-on.co.jp/search?q=WEB限定">WEB限定アイテム</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="/pre-orders">予約アイテム一覧</a>
+					</li>
+
+					<li class="nav-item"> <a class="nav-link" href="/blogs">コラム一覧</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6 col-md-3 mb-3 float-left">
+				<ul class="nav flex-column footer-list">
+					<li class="nav-item"> <a class="nav-link"
+							href="https://biz.right-on.co.jp/biz/overview.php">会社概要</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link"
+							href="https://biz.right-on.co.jp/customer/privacy_policy.php">個人情報保護方針</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="/user-specific">特定商取引法に基付く表示</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="/user-policy">ライトオンオンラインショップ利用規約</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-6 col-md-3 mb-3 float-left">
+				<ul class="nav flex-column footer-list">
+					<li class="nav-item"> <a class="nav-link" href="https://biz.right-on.co.jp">コーポレートサイト</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="https://biz.right-on.co.jp/ir/">IR情報</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="https://biz.right-on.co.jp/shop/">店舗検索</a>
+					</li>
+					<li class="nav-item"> <a class="nav-lin"
+							href="https://biz.right-on.co.jp/career/shinsotsu/">新卒採用</a>
+					</li>
+					<li class="nav-item"> <a class="nav-link"
+							href="https://right-on-career.net/jobfind-pc/">中途・アルバイト求人</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

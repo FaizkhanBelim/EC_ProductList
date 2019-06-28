@@ -1,0 +1,403 @@
+<!doctype html>
+<html ⚡ lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="generator" content="AMP Plugin v0.7-beta1-d65578d-20180420T213729Z" />
+
+    <link rel="canonical" href="/article.html">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+    <title>
+        Brand Detail Page
+    </title>
+
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style>
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+    <style amp-custom>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-family: serif;
+            margin-bottom: 0;
+        }
+
+        article {
+            width: 250px;
+            /* margin-left: auto;
+                margin-right: auto; */
+        }
+
+        .image-wrapper {
+            width: 200px;
+            float: left;
+            padding-right: 25px;
+            padding-bottom: 10px;
+        }
+
+        .image-wrapper img {
+            width: 200px;
+
+        }
+
+        .image-wrapper span {
+            font-family: sans-serif;
+            font-size: 10px;
+            color: #ccc;
+        }
+
+        .article-meta {
+            font-family: sans-serif;
+            color: #aaa;
+            font-size: 12px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .img-cat {
+            width: 90%;
+        }
+
+        .forecast {
+            margin: 0;
+            padding: .3rem;
+            background-color: #eee;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 30%;
+            padding: 20px;
+            border: 5px solid white;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /*NAVIGATION SIDE BAR */
+        .hamburger {
+            padding-left: 10px;
+            position: relative;
+        }
+
+        .sidebar {
+            padding: 10px;
+            margin: 0;
+        }
+
+        .sidebar>li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+        }
+
+        .close-sidebar {
+            font-size: 1.5em;
+            padding-left: 5px;
+        }
+
+        .site-name {
+            flex: 1;
+            margin-left: -36px;
+        }
+
+        header {
+            background-color: #241754;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0.5em;
+            background: white;
+        }
+
+        .headerbar {
+            height: 50px;
+            z-index: 999;
+            top: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .tab {
+            display: flex;
+            margin-left: -37px;
+            margin-top: 14px;
+        }
+
+        .tabmenu {
+            padding: 15px;
+            list-style-type: none;
+        }
+
+        .tag {
+            color: tomato;
+            margin-left: 80px;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 2px;
+        }
+
+        .size {
+            margin-left: 0px;
+            margin-top: -3px;
+            font-size: 18px;
+            color: darkmagenta;
+        }
+
+        .sizemap {
+            margin-left: 30px;
+        }
+
+        .name {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width:800px) {
+
+            /* For tablets: */
+            .column {
+                width: 0;
+                padding: 0;
+            }
+
+            .right {
+                width: 100%;
+            }
+
+            .img-spam {
+                width: 200px;
+                margin-left: 117px;
+            }
+
+            .size {
+                margin-left: 0px;
+                margin-top: -3px;
+                font-size: 18px;
+                color: darkmagenta;
+            }
+
+            .sizemap {
+                margin-left: 30px;
+            }
+
+            .priceTitle {
+                margin-left: 0px;
+                margin-top: -10px;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+
+            /* For mobile phones: */
+            .menu,
+            .column,
+            .right {
+                width: 100%;
+            }
+
+            .img-spam {
+                width: 200px;
+                margin-left: 117px;
+            }
+
+            .size {
+                margin-left: 0px;
+                margin-top: -3px;
+                font-size: 18px;
+                color: darkmagenta;
+            }
+
+            .sizemap {
+                margin-left: 30px;
+            }
+
+            .priceTitle {
+                margin-left: 0px;
+                margin-top: -10px;
+            }
+        }
+
+        .heading {
+            padding-bottom: 8px;
+        }
+
+        .heading>#summary {
+            font-weight: 500;
+        }
+
+        .heading>small {
+            color: #656565;
+        }
+    </style>
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <meta name="amp-experiments-opt-in" content="experiment-a,experiment-b">
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+    <script async custom-element="amp-3d-gltf" src="https://cdn.ampproject.org/v0/amp-3d-gltf-0.1.js"></script>
+
+</head>
+
+<body>
+    <header class="headerbar">
+        <div class="site-name" role="button" on="tap:sidebar1.toggle" tabindex="0">
+            <a href="ampJson.html" class="name">Brand Detail Page</a>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="column">
+            <amp-img src="images/allcloth.jpeg" width="235" height="200" layout="responsive"></amp-img>
+            <div class="maintab">
+                <ul class="tab">
+                    <li class="size">Size : </a></li>
+                    <li class="sizemap">28</a></li>
+                    <li class="sizemap">30</a></li>
+                    <li class="sizemap">32</a></li>
+                    <li class="sizemap">34</a></li>
+                    <li class="sizemap">36</a></li>
+                </ul>
+            </div>
+            <span class="titleItem">LEVI'S</span>
+            <p>Lucky bag 2017 New Year Lucky bag BOYS Kids</p>
+            <div class="priceTitle">
+                <h3>8000</h3>
+            </div>
+        </div>
+        <p style="color: tomato;margin-left:80px;font-size: 20px;">Releated Product.</p>
+        <amp-carousel width="400" height="300" layout="responsive" type="slides" autoplay delay="3000">
+            <amp-img src="images/new/new2.jpeg" width="235" height="200" layout="responsive"></amp-img>
+            <amp-img src="images/new/new4.jpeg" width="235" height="200" layout="responsive"></amp-img>
+            <amp-img src="images/new/new6.jpeg" width="235" height="200" layout="responsive"></amp-img>
+        </amp-carousel>
+
+        <p class="heading">
+            <amp-social-share type="twitter" data-param-text="Amazing recipe that my friend made" width="45"
+                height="33"></amp-social-share>
+            <amp-social-share type="facebook" width="45" height="33" data-attribution="254325784911610">
+            </amp-social-share>
+            <amp-social-share type="gplus" width="45" height="33"></amp-social-share>
+            <amp-social-share type="email" width="45" height="33"></amp-social-share>
+            <amp-social-share type="pinterest" width="45" height="33"></amp-social-share>
+        </p>
+    </div>
+    <p><span class="star-rating">
+            <span class="star-icon full">☆</span>
+            <span class="star-icon full">☆</span>
+            <span class="star-icon full">☆</span>
+            <span class="star-icon full">☆</span>
+            <span class="star-icon half">☆</span>
+        </span> (3 reviews)</p>
+
+    <p>Delivered on time and product was fantastic</p>
+    <p>I needed shirts for a trade show with a short delivery time after our previous makers fell through.<br>
+        Pistol delivered on time and the quality is great. <br>
+        Not just printed, but fully embroidered logos, back front and sleeves.<br>
+
+        Could not be happier and will be using Pistol again for sure.
+    </p>
+
+    <h1>Review</h1>
+    <ul>
+        <li>Product Quality : GOOD </li>
+        <li>Return Claim Made : NO </li>
+        <li>Sizing : True to size </li>
+        <li>Product Appearance : As advertised</li>
+</body>
+
+</html>
